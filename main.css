@@ -1,0 +1,238 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.welcome-section{
+    background-image: url(london-england.jpg);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 657px;
+    padding-top: opx;
+}
+.services{
+    margin-top: 100px;
+}
+.row{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.navbar{
+    padding-top: 20px;
+    display:flex;
+}
+.nav-item{
+    color:white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.nav-item:hover{
+    color:#4a4a4a;
+    border-bottom: 1px solid;
+    border-bottom-color: #fbad27;
+}
+.nav-justify-right{
+    margin-left:350px;
+}
+hr{
+    color: white;
+    background-color: white;
+}
+.header1{
+    font-size: 50px;
+}
+.header2{
+    font-size: 35px;
+}
+
+.p{
+    /* Extra in case we need it for something in the future*/
+}
+.orange-btn{
+    color:white;
+    background-color: #fbad27;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right:30px;
+    padding-left:30px;
+    border-radius: 15px;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+.orange-btn:hover{
+    border: 2px solid white;
+    
+}
+.white{
+    color:white;
+}
+.main-color{
+    color:#fbad27;
+}
+.specialties{
+    display:flex;
+}
+.specialty-1{
+    max-width:300px;
+    padding: 20px;
+    
+}
+.specialty-1:hover{
+    box-shadow: 1px 1px 2px 2px #f2f2f2;
+    cursor:cell;
+}
+#search{
+    border:none;
+    padding: 10px;
+}
+#search:hover{
+    border: 1px solid #fbad27;
+    border-radius: 15px;
+}
+.travel-options{
+    text-align: center;
+    min-width:300px;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+.travel-option-link{
+    text-decoration: none;
+}
+.travel-option-link:hover{
+    box-shadow: 1px 1px 2px 2px #f2f2f2;
+}
+.blog1{grid-area: blog1;box-shadow: 1px 1px 1px 1px #f2f2f2;padding:4px;}
+.blog2{grid-area: blog2;box-shadow: 1px 1px 1px 1px #f2f2f2;padding:4px;}
+.blog3{grid-area: blog3;max-width: 150px;box-shadow: 1px 1px 1px 1px #f2f2f2;padding:4px;}
+.blog4{grid-area: blog4;max-width: 150px;box-shadow: 1px 1px 1px 1px #f2f2f2;padding:4px;}
+.blog5{grid-area: blog5;max-width: 350px;display: flex;box-shadow: 1px 1px 1px 1px #f2f2f2;padding:4px;}
+.blog6{grid-area: blog6;max-width: 280px;box-shadow: 1px 1px 1px 1px #f2f2f2;padding:4px;}
+.blog-container{
+    display: grid;
+    grid-template-areas: 'blog1 blog1 blog2 blog3'
+                         'blog1 blog1 blog2 blog4'
+                         'blog5 blog5 blog6 blog4';
+    grid-gap: 10px;
+}
+.big-img{
+    max-width: 350px;
+    max-height: 200px;
+}
+.small-img{
+    max-width:150px;
+    max-height: 150px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+    
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.sticky a{
+    color:black;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.round-img{
+    border-radius: 20px;
+    max-width:100px;
+}
+.testimonial{
+    margin:10px;
+    max-width: 150px;
+    padding: 40px;
+    box-shadow: 1px 1px 2px 2px #f2f2f2;
+}
+.ad{
+    background-color: #fbad27;
+    color:white;
+    display: flex;
+}
+.ad-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+}
+.ad-2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.ad-btn{
+    color:white;
+    background-color: #fbad27;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right:30px;
+    padding-left:30px;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 13.5px;
+    text-decoration: none;
+}
+.ad-btn:hover{
+    padding-right:40px;
+    padding-left:40px;
+}
+.shadow{
+    margin-top:10px;
+    display: flex;
+    box-shadow: 1px 1px 2px 2px #f2f2f2;
+}
+.secondary{
+    color:#757575;
+    text-decoration: none;
+}
+.secondary:hover{
+    color:#757575;
+    text-decoration: none;
+}
+.text-color{
+    color:#4a4a4a;
+}
+.icon-div{
+    display: flex;
+}
+.icon-style{
+    color: #4a4a4a;
+    font-size: 25px;
+    text-decoration: none;
+    margin:10px;
+}
+.icon-style:hover{
+    color: white;
+    background-color: #fbad27;
+    border-radius: 50%;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:8px;
+    padding-right:8px;
+    text-decoration: none;
+}
+h6{
+    font-size: 15px;
+}
+.footer-box{
+    margin-left: 50px;
+}
+.copyright{
+    font-size: 10px;
+    color: #757575;
+}
